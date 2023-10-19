@@ -4,52 +4,30 @@
 <head>
   <meta charset="UTF-8">
   <title>I Love You</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=2">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="container">
+    <div class="container">
+      <h2>Darilo lahko odpreš čez:</h2>
 
-    <div class="slides love">
-      I <span class="heart"></span> you
+      <div class="grid-container">
+        <div class="days">0</div>
+        <div class="hours">0</div>
+        <div class="minutes">0</div>
+        <div class="seconds">0</div>
+
+        <div class="title">DNI</div>
+        <div class="title">UR</div>
+        <div class="title">MINUT</div>
+        <div class="title">SEKUND</div>
+      </div>
+
     </div>
-
-    <div class="slides random_picker">
-      <table>
-        <tr>
-          <td>
-            <div class="title">
-              <h2>Date picker</h2>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="random_picker_position">
-                <h3 id ="result">...</h3>
-                <hr style="border-top:1px solid #fff;" />
-                  <button class="button-56" onclick="generate()"><span>IZBERI</span></button>
-              </div>
-            </div>
-        </tr>
-        </td>
-        <tr>
-          <td>
-            <div class="navodila">
-            <h2>NAVODILA</h2>
-            <p>Date picker je posebno razvito orodje samo zate draga moja. Ker mava včasih težave pri odločanje ka bi delala, je tu notri zbranih nekaj idej za najine zmenke.
-              To kar se izpiše moreva narediti in to OBVEZNOOOO!! Ker so pa nekatere "dejavnosti" vezane na letni čas in vreme maš 3 poskuse in iz teh zbereš najljubšo stvar.
-              To stvar mi poveš in grevaa. Nič več problemov z odločanjem ;)
-            </p>
-
-            <h6>Za vsa dodatna vprašanja ti samo piši ali kliči &#128513;</h6>
-          </div>
-          </td>
-        </tr>
-      </table>
-    </div>
-
-  </div>
 
   <script src="js/script.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
